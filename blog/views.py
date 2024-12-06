@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 posts = [
     {
-        'author': 'Админ',
+        'author': 'Ясмина',
         'title': 'Добро пожаловать в наш клуб!',
         'content': 'Обсуждаем программирование и IT-темы.',
         'date_posted': '6 декабря, 2024'
@@ -25,4 +25,4 @@ def home(request):
 
 
 def about(request):
-    return render(request, './about.html', {'title': 'О клубе Python Bytes'})
+    return render(request, './about.html', {'title': 'О клубе IT Groups'})
