@@ -1,0 +1,136 @@
+﻿body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #121212; /* Темный фон */
+  color: #e0e0e0; /* Светлый текст */
+  line-height: 1.6;
+}
+
+body {
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff6f61; /* Яркий акцентный цвет */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bg-blue {
+  background-color: #1e1e2f; /* Тёмно-синий с фиолетовым оттенком */
+  border-left: 4px solid #ff6f61;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.site-header {
+  background: #1b1b1b; /* Чёрный с оттенком серого */
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #e0e0e0;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ff6f61;
+  transform: scale(1.1);
+}
+
+.site-header .navbar-nav .nav-link.active {
+  color: #ff6f61;
+  font-weight: bold;
+  text-shadow: 0px 2px 5px rgba(255, 111, 97, 0.8);
+}
+
+.content-section {
+  background: #1e1e2f; /* Глубокий серо-синий */
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.content-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.article-title {
+  color: #ff6f61;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+a.article-title:hover {
+  color: #ff9f80;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+  line-height: 1.8;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #ff6f61;
+  border-radius: 50%;
+}
+
+.list-group-item {
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: #1e1e2f;
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background: #29293d; /* Светлее при наведении */
+  transform: translateY(-4px);
+}
+
+footer {
+  position: sticky !important;
+  top: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #1b1b1b; /* Тёмный фон */
+}
+
+footer p {
+  margin: 2px;
+  text-align: center;
+  padding: 0 40px;
+  color: #e0e0e0; /* Светлый текст */
+  font-size: 12px;
+}
+
+footer a {
+  color: #ff6f61;
+}
+
+footer a:hover {
+  color: #ff9f80;
+  text-decoration: none;
+}
